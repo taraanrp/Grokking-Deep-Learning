@@ -1,0 +1,42 @@
+{
+  "reviews.txt": {
+    "url": "https://raw.githubusercontent.com/iamtrask/Grokking-Deep-Learning/e665168b4aefe3256360951504103cf98827ca51/reviews.txt",
+    "sha256": "d7c2f21e5c8f5240859910ba5331b9baa88310aa978dbd8747ebd4ff6ebbefa6",
+    "bytes": 33678267
+  },
+  "labels.txt": {
+    "url": "https://raw.githubusercontent.com/iamtrask/Grokking-Deep-Learning/e665168b4aefe3256360951504103cf98827ca51/labels.txt",
+    "sha256": "301d18424e95957a000293f5d8393239451d7f54622a8f21613172aebe64ca06",
+    "bytes": 225000
+  },
+  "shakespear.txt": {
+    "url": "https://raw.githubusercontent.com/iamtrask/Grokking-Deep-Learning/e665168b4aefe3256360951504103cf98827ca51/shakespear.txt",
+    "sha256": "c879e55c5e318b9d978064e246306e01d60be15a50f64d9438daeaeacbc119e8",
+    "bytes": 99993
+  },
+  "spam.txt": {
+    "url": "https://raw.githubusercontent.com/iamtrask/Grokking-Deep-Learning/e665168b4aefe3256360951504103cf98827ca51/spam.txt",
+    "sha256": "e5152010eac51ae9db110580114f43f821ca3eb0db7ffb47f274304935809e10",
+    "bytes": 10843548
+  },
+  "ham.txt": {
+    "url": "https://raw.githubusercontent.com/iamtrask/Grokking-Deep-Learning/e665168b4aefe3256360951504103cf98827ca51/ham.txt",
+    "sha256": "5847a3f2858c09b3189bb91cf98abff6ec90e9e85b54b696837be37e1b54b7c2",
+    "bytes": 21180948
+  },
+  "qa1_single-supporting-fact_train.txt": {
+    "url": "https://raw.githubusercontent.com/iamtrask/Grokking-Deep-Learning/e665168b4aefe3256360951504103cf98827ca51/tasksv11/en/qa1_single-supporting-fact_train.txt",
+    "sha256": "c64ba9b1a49bbb111ffc4cd2ae4f129d25c012399dd7ade9679eea464b9afb05",
+    "bytes": 94346
+  },
+  "qa1_single-supporting-fact_test.txt": {
+    "url": "https://raw.githubusercontent.com/iamtrask/Grokking-Deep-Learning/e665168b4aefe3256360951504103cf98827ca51/tasksv11/en/qa1_single-supporting-fact_test.txt",
+    "sha256": "55acf66cef2f6d798e2aa1d056e1ec8f24e910ea9215b639450574321132959b",
+    "bytes": 94477
+  },
+  "mnist.npz": {
+    "url": "https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz",
+    "bytes": 11490434,
+    "sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1"
+  }
+}

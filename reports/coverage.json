@@ -1,0 +1,907 @@
+[
+  {
+    "chapter": 1,
+    "title": "Introducing deep learning: why you should learn it",
+    "notebook": "chapter_01_introducing_deep_learning.ipynb",
+    "sections": [
+      {
+        "anchor": "b01-motivasi",
+        "title": "Motivasi dan pendekatan belajar",
+        "print_pages": [
+          3,
+          6
+        ],
+        "pdf_pages": [
+          24,
+          27
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b01-environment",
+        "title": "Python, NumPy, dan Jupyter",
+        "print_pages": [
+          7,
+          8
+        ],
+        "pdf_pages": [
+          28,
+          29
+        ],
+        "cell_index": 5
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "title": "Fundamental concepts: how do machines learn?",
+    "notebook": "chapter_02_fundamental_concepts.ipynb",
+    "sections": [
+      {
+        "anchor": "b02-jenis",
+        "title": "Deep learning, machine learning, dan jenis supervisi",
+        "print_pages": [
+          10,
+          13
+        ],
+        "pdf_pages": [
+          31,
+          34
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b02-parameter",
+        "title": "Parametric/nonparametric dan predict–compare–learn",
+        "print_pages": [
+          14,
+          19
+        ],
+        "pdf_pages": [
+          35,
+          40
+        ],
+        "cell_index": 5
+      },
+      {
+        "anchor": "b02-demo",
+        "title": "Tambahan: mengamati satu siklus pembelajaran",
+        "print_pages": [
+          16,
+          16
+        ],
+        "pdf_pages": [
+          37,
+          37
+        ],
+        "cell_index": 6
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "title": "Introduction to neural prediction: forward propagation",
+    "notebook": "chapter_03_forward_propagation.ipynb",
+    "sections": [
+      {
+        "anchor": "b03-scalar",
+        "title": "Reproduksi: satu bobot",
+        "print_pages": [
+          22,
+          27
+        ],
+        "pdf_pages": [
+          43,
+          48
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b03-inputs",
+        "title": "Reproduksi: banyak input dan versi NumPy",
+        "print_pages": [
+          28,
+          35
+        ],
+        "pdf_pages": [
+          49,
+          56
+        ],
+        "cell_index": 6
+      },
+      {
+        "anchor": "b03-outputs",
+        "title": "Reproduksi: banyak output, kemudian banyak input-output",
+        "print_pages": [
+          36,
+          41
+        ],
+        "pdf_pages": [
+          57,
+          62
+        ],
+        "cell_index": 8
+      },
+      {
+        "anchor": "b03-stack",
+        "title": "Reproduksi: predicting on predictions",
+        "print_pages": [
+          42,
+          43
+        ],
+        "pdf_pages": [
+          63,
+          64
+        ],
+        "cell_index": 10
+      },
+      {
+        "anchor": "b03-numpy",
+        "title": "Reproduksi: primer NumPy dan kegagalan bentuk",
+        "print_pages": [
+          44,
+          46
+        ],
+        "pdf_pages": [
+          65,
+          67
+        ],
+        "cell_index": 12
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "title": "Introduction to neural learning: gradient descent",
+    "notebook": "chapter_04_gradient_descent.ipynb",
+    "sections": [
+      {
+        "anchor": "b04-compare",
+        "title": "Reproduksi: compare, hot-and-cold",
+        "print_pages": [
+          48,
+          55
+        ],
+        "pdf_pages": [
+          69,
+          76
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b04-gradient",
+        "title": "Reproduksi: delta, derivative, dan satu update",
+        "print_pages": [
+          56,
+          71
+        ],
+        "pdf_pages": [
+          77,
+          92
+        ],
+        "cell_index": 6
+      },
+      {
+        "anchor": "b04-divergence",
+        "title": "Reproduksi: breaking gradient descent dan alpha",
+        "print_pages": [
+          72,
+          77
+        ],
+        "pdf_pages": [
+          93,
+          98
+        ],
+        "cell_index": 8
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "title": "Learning multiple weights at a time: generalizing gradient descent",
+    "notebook": "chapter_05_learning_multiple_weights.ipynb",
+    "sections": [
+      {
+        "anchor": "b05-multi",
+        "title": "Reproduksi: multiple inputs dan tiga langkah",
+        "print_pages": [
+          80,
+          87
+        ],
+        "pdf_pages": [
+          101,
+          108
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b05-freeze",
+        "title": "Reproduksi: freezing one weight",
+        "print_pages": [
+          88,
+          89
+        ],
+        "pdf_pages": [
+          109,
+          110
+        ],
+        "cell_index": 6
+      },
+      {
+        "anchor": "b05-output",
+        "title": "Reproduksi: multiple outputs",
+        "print_pages": [
+          90,
+          91
+        ],
+        "pdf_pages": [
+          111,
+          112
+        ],
+        "cell_index": 8
+      },
+      {
+        "anchor": "b05-outer",
+        "title": "Reproduksi: multiple inputs/outputs dan geometri",
+        "print_pages": [
+          92,
+          98
+        ],
+        "pdf_pages": [
+          113,
+          119
+        ],
+        "cell_index": 10
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "title": "Building your first deep neural network: introduction to backpropagation",
+    "notebook": "chapter_06_backpropagation.ipynb",
+    "sections": [
+      {
+        "anchor": "b06-street",
+        "title": "Reproduksi: matrices, satu contoh, seluruh dataset",
+        "print_pages": [
+          100,
+          115
+        ],
+        "pdf_pages": [
+          121,
+          136
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b06-nonlinear",
+        "title": "Korelasi tidak langsung dan jaringan pertama",
+        "print_pages": [
+          116,
+          125
+        ],
+        "pdf_pages": [
+          137,
+          146
+        ],
+        "cell_index": 6
+      },
+      {
+        "anchor": "b06-backprop",
+        "title": "Reproduksi: satu iterasi dan putting it all together",
+        "print_pages": [
+          126,
+          131
+        ],
+        "pdf_pages": [
+          147,
+          152
+        ],
+        "cell_index": 8
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "title": "How to picture neural networks: in your head and on paper",
+    "notebook": "chapter_07_picturing_neural_networks.ipynb",
+    "sections": [
+      {
+        "anchor": "b07-visual",
+        "title": "Dari gambar rinci ke matriks dan vektor",
+        "print_pages": [
+          134,
+          139
+        ],
+        "pdf_pages": [
+          155,
+          160
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b07-algebra",
+        "title": "Letters, linking variables, dan everything side by side",
+        "print_pages": [
+          140,
+          143
+        ],
+        "pdf_pages": [
+          161,
+          164
+        ],
+        "cell_index": 6
+      }
+    ]
+  },
+  {
+    "chapter": 8,
+    "title": "Learning signal and ignoring noise: introduction to regularization and batching",
+    "notebook": "chapter_08_regularization_and_batching.ipynb",
+    "sections": [
+      {
+        "anchor": "b08-data",
+        "title": "Reproduksi: three-layer network on MNIST",
+        "print_pages": [
+          146,
+          148
+        ],
+        "pdf_pages": [
+          167,
+          169
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b08-baseline",
+        "title": "Reproduksi: baseline, memorization, dan generalization",
+        "print_pages": [
+          147,
+          152
+        ],
+        "pdf_pages": [
+          168,
+          173
+        ],
+        "cell_index": 6
+      },
+      {
+        "anchor": "b08-dropout",
+        "title": "Reproduksi: ensembling, masker dropout, evaluasi",
+        "print_pages": [
+          153,
+          157
+        ],
+        "pdf_pages": [
+          174,
+          178
+        ],
+        "cell_index": 8
+      },
+      {
+        "anchor": "b08-batch",
+        "title": "Reproduksi: mini-batch; tambahan early stopping",
+        "print_pages": [
+          158,
+          160
+        ],
+        "pdf_pages": [
+          179,
+          181
+        ],
+        "cell_index": 10
+      }
+    ]
+  },
+  {
+    "chapter": 9,
+    "title": "Modeling probabilities and nonlinearities: activation functions",
+    "notebook": "chapter_09_activation_functions.ipynb",
+    "sections": [
+      {
+        "anchor": "b09-activation",
+        "title": "Reproduksi konsep: fungsi aktivasi dan turunan",
+        "print_pages": [
+          162,
+          173
+        ],
+        "pdf_pages": [
+          183,
+          194
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b09-data",
+        "title": "Reproduksi: persiapan MNIST",
+        "print_pages": [
+          174,
+          174
+        ],
+        "pdf_pages": [
+          195,
+          195
+        ],
+        "cell_index": 6
+      },
+      {
+        "anchor": "b09-train",
+        "title": "Reproduksi listing dan koreksi: upgrading the MNIST network",
+        "print_pages": [
+          174,
+          175
+        ],
+        "pdf_pages": [
+          195,
+          196
+        ],
+        "cell_index": 8
+      },
+      {
+        "anchor": "b09-check",
+        "title": "Tambahan: gradient check tanh + dropout",
+        "print_pages": [
+          173,
+          173
+        ],
+        "pdf_pages": [
+          194,
+          194
+        ],
+        "cell_index": 10
+      }
+    ]
+  },
+  {
+    "chapter": 10,
+    "title": "Neural learning about edges and corners: intro to convolutional neural networks",
+    "notebook": "chapter_10_convolutional_neural_networks.ipynb",
+    "sections": [
+      {
+        "anchor": "b10-patch",
+        "title": "Reproduksi: weight sharing dan convolutional layer",
+        "print_pages": [
+          178,
+          181
+        ],
+        "pdf_pages": [
+          199,
+          202
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b10-cnn",
+        "title": "Reproduksi NumPy dan koreksi gradien",
+        "print_pages": [
+          182,
+          185
+        ],
+        "pdf_pages": [
+          203,
+          206
+        ],
+        "cell_index": 6
+      },
+      {
+        "anchor": "b10-gradient",
+        "title": "Tambahan: uji kernel dan pembagian bobot",
+        "print_pages": [
+          183,
+          183
+        ],
+        "pdf_pages": [
+          204,
+          204
+        ],
+        "cell_index": 8
+      }
+    ]
+  },
+  {
+    "chapter": 11,
+    "title": "Neural networks that understand language: king – man + woman == ?",
+    "notebook": "chapter_11_word_embeddings.ipynb",
+    "sections": [
+      {
+        "anchor": "b11-bow",
+        "title": "Reproduksi: NLP, IMDB, encoding, dan embedding",
+        "print_pages": [
+          188,
+          194
+        ],
+        "pdf_pages": [
+          209,
+          215
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b11-sentiment",
+        "title": "Reproduksi: sentiment training dan interpretasi",
+        "print_pages": [
+          195,
+          200
+        ],
+        "pdf_pages": [
+          216,
+          221
+        ],
+        "cell_index": 6
+      },
+      {
+        "anchor": "b11-cbow",
+        "title": "Reproduksi: filling in the blank dan negative sampling",
+        "print_pages": [
+          201,
+          205
+        ],
+        "pdf_pages": [
+          222,
+          226
+        ],
+        "cell_index": 8
+      },
+      {
+        "anchor": "b11-analogy",
+        "title": "Reproduksi: king − man + woman dan word analogies",
+        "print_pages": [
+          206,
+          208
+        ],
+        "pdf_pages": [
+          227,
+          229
+        ],
+        "cell_index": 11
+      }
+    ]
+  },
+  {
+    "chapter": 12,
+    "title": "Neural networks that write like Shakespeare: recurrent layers for variable-length data",
+    "notebook": "chapter_12_recurrent_layers.ipynb",
+    "sections": [
+      {
+        "anchor": "b12-average",
+        "title": "Reproduksi: averaged embeddings dan keterbatasan bag-of-words",
+        "print_pages": [
+          210,
+          215
+        ],
+        "pdf_pages": [
+          231,
+          236
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b12-identity",
+        "title": "Reproduksi: identity, transition, toy forward dan backward",
+        "print_pages": [
+          216,
+          221
+        ],
+        "pdf_pages": [
+          237,
+          242
+        ],
+        "cell_index": 7
+      },
+      {
+        "anchor": "b12-babi",
+        "title": "Reproduksi: setup bAbI dan arbitrary-length forward",
+        "print_pages": [
+          222,
+          224
+        ],
+        "pdf_pages": [
+          243,
+          245
+        ],
+        "cell_index": 9
+      },
+      {
+        "anchor": "b12-bptt",
+        "title": "Reproduksi dan koreksi: BPTT, update, dan analisis",
+        "print_pages": [
+          225,
+          229
+        ],
+        "pdf_pages": [
+          246,
+          250
+        ],
+        "cell_index": 11
+      }
+    ]
+  },
+  {
+    "chapter": 13,
+    "title": "Introducing automatic optimization: let’s build a deep learning framework",
+    "notebook": "chapter_13_automatic_optimization.ipynb",
+    "sections": [
+      {
+        "anchor": "b13-tensor",
+        "title": "Reproduksi bertahap: tensor dan autograd pertama",
+        "print_pages": [
+          232,
+          236
+        ],
+        "pdf_pages": [
+          253,
+          257
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b13-graph",
+        "title": "Reproduksi operasi dan penyesuaian graph untuk multiuse",
+        "print_pages": [
+          237,
+          245
+        ],
+        "pdf_pages": [
+          258,
+          266
+        ],
+        "cell_index": 6
+      },
+      {
+        "anchor": "b13-training",
+        "title": "Reproduksi: manual versus autograd dan SGD",
+        "print_pages": [
+          246,
+          248
+        ],
+        "pdf_pages": [
+          267,
+          269
+        ],
+        "cell_index": 9
+      },
+      {
+        "anchor": "b13-layers",
+        "title": "Reproduksi: layers, sequential, loss, nonlinearities",
+        "print_pages": [
+          249,
+          254
+        ],
+        "pdf_pages": [
+          270,
+          275
+        ],
+        "cell_index": 13
+      },
+      {
+        "anchor": "b13-embedding",
+        "title": "Reproduksi: embedding, indexing, cross-entropy",
+        "print_pages": [
+          255,
+          259
+        ],
+        "pdf_pages": [
+          276,
+          280
+        ],
+        "cell_index": 15
+      },
+      {
+        "anchor": "b13-rnn",
+        "title": "Reproduksi: recurrent neural network layer",
+        "print_pages": [
+          260,
+          263
+        ],
+        "pdf_pages": [
+          281,
+          284
+        ],
+        "cell_index": 17
+      }
+    ]
+  },
+  {
+    "chapter": 14,
+    "title": "Learning to write like Shakespeare: long short-term memory",
+    "notebook": "chapter_14_long_short_term_memory.ipynb",
+    "sections": [
+      {
+        "anchor": "b14-batch",
+        "title": "Reproduksi: character model dan truncated BPTT",
+        "print_pages": [
+          266,
+          271
+        ],
+        "pdf_pages": [
+          287,
+          292
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b14-unstable",
+        "title": "Reproduksi: vanishing/exploding gradients",
+        "print_pages": [
+          272,
+          273
+        ],
+        "pdf_pages": [
+          293,
+          294
+        ],
+        "cell_index": 6
+      },
+      {
+        "anchor": "b14-lstm",
+        "title": "Reproduksi: LSTM gates dan layer",
+        "print_pages": [
+          274,
+          277
+        ],
+        "pdf_pages": [
+          295,
+          298
+        ],
+        "cell_index": 8
+      },
+      {
+        "anchor": "b14-training",
+        "title": "Reproduksi: RNN, LSTM training, dan sampling",
+        "print_pages": [
+          270,
+          280
+        ],
+        "pdf_pages": [
+          291,
+          301
+        ],
+        "cell_index": 10
+      },
+      {
+        "anchor": "b14-checks",
+        "title": "Tambahan: gradient check satu langkah LSTM",
+        "print_pages": [
+          276,
+          276
+        ],
+        "pdf_pages": [
+          297,
+          297
+        ],
+        "cell_index": 12
+      }
+    ]
+  },
+  {
+    "chapter": 15,
+    "title": "Deep learning on unseen data: introducing federated learning",
+    "notebook": "chapter_15_federated_learning.ipynb",
+    "sections": [
+      {
+        "anchor": "b15-data",
+        "title": "Reproduksi: privasi dan learning to detect spam",
+        "print_pages": [
+          282,
+          285
+        ],
+        "pdf_pages": [
+          303,
+          306
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b15-central",
+        "title": "Reproduksi: centralized training dan test",
+        "print_pages": [
+          285,
+          285
+        ],
+        "pdf_pages": [
+          306,
+          306
+        ],
+        "cell_index": 6
+      },
+      {
+        "anchor": "b15-federated",
+        "title": "Reproduksi: Bob, Alice, Sue dan averaging",
+        "print_pages": [
+          286,
+          286
+        ],
+        "pdf_pages": [
+          307,
+          307
+        ],
+        "cell_index": 8
+      },
+      {
+        "anchor": "b15-leak",
+        "title": "Reproduksi: kebocoran update satu email",
+        "print_pages": [
+          287,
+          287
+        ],
+        "pdf_pages": [
+          308,
+          308
+        ],
+        "cell_index": 10
+      },
+      {
+        "anchor": "b15-crypto",
+        "title": "Reproduksi: homomorphic encryption dan secure aggregation",
+        "print_pages": [
+          288,
+          291
+        ],
+        "pdf_pages": [
+          309,
+          312
+        ],
+        "cell_index": 12
+      }
+    ]
+  },
+  {
+    "chapter": 16,
+    "title": "Where to go from here: a brief guide",
+    "notebook": "chapter_16_where_to_go_from_here.ipynb",
+    "sections": [
+      {
+        "anchor": "b16-steps1",
+        "title": "Reproduksi konsep: langkah 1–3",
+        "print_pages": [
+          294,
+          295
+        ],
+        "pdf_pages": [
+          315,
+          316
+        ],
+        "cell_index": 4
+      },
+      {
+        "anchor": "b16-steps2",
+        "title": "Reproduksi konsep: langkah 4–7",
+        "print_pages": [
+          296,
+          297
+        ],
+        "pdf_pages": [
+          317,
+          318
+        ],
+        "cell_index": 5
+      },
+      {
+        "anchor": "b16-steps3",
+        "title": "Reproduksi konsep: langkah 8–10",
+        "print_pages": [
+          298,
+          299
+        ],
+        "pdf_pages": [
+          319,
+          320
+        ],
+        "cell_index": 6
+      },
+      {
+        "anchor": "b16-presentation",
+        "title": "Tambahan: alur presentasi dan pemeriksaan artifact",
+        "print_pages": [
+          299,
+          299
+        ],
+        "pdf_pages": [
+          320,
+          320
+        ],
+        "cell_index": 7
+      }
+    ]
+  }
+]
