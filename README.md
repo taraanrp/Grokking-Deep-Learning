@@ -6,7 +6,7 @@ Tugas individu **Code Reproduction + Theoretical Deep-Dive** berdasarkan *Grokki
 |---|---|
 | Nama | Tarannia Raisha Putri |
 | NIM | 101032300231 |
-| Kelas | TK4702 |
+| Kelas | TK4703 |
 | Mata kuliah | Deep Learning |
 
 **Hasil validasi: 16/16 notebook PASS** dari kernel bersih secara berurutan. Bab 1–7 dan16 memuat konsep/contoh kecil lengkap; mode setiap bab tercantum dalam tabel. **Bab 8, 9, 10, 11, 12, 13, 14, 15 belum divalidasi dengan mode full.** PASS menyatakan sel dan pemeriksaan berhasil; bukan kesamaan semua akurasi dengan buku.
