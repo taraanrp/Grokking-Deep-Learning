@@ -23,7 +23,7 @@ Sesuai gambar instruksi dosen: satu notebook per bab, teori dan ringkasan, repos
 |---|---|
 | Bab 1–6 | 10 Oktober 2026 pukul 23.59 |
 | Bab 7–10 | 17 Oktober 2026 pukul 23.59 |
-| Bab 11–16 | Tidak tercantum; tidak diasumsikan |
+| Bab 11–16 | 24 Oktober 2026 pukl 23.59 |
 
 Tanggal di atas mengikuti instruksi tugas. Log eksekusi memakai zona Asia/Jakarta. Repository ini tidak mengklaim bahwa pengumpulan telah dilakukan sebelum tenggat.
 
